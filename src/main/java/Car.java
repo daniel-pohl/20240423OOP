@@ -17,8 +17,10 @@ public class Car {
         this.speed = speed;
     }
 
-    public void start() {
-        System.out.println("The " + color + " " + brand + " " + model + " has started.");
+    public String start() {
+        String outputForStartMethod = "The " + color + " " + brand + " " + model + " has started.";
+        System.out.println(outputForStartMethod);
+        return outputForStartMethod;
     }
 
     public void accelerate(int acceleration) {
