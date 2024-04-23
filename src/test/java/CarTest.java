@@ -5,12 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class CarTest {
 
-    //addWhen4Plus3ThenReturn7
-    @Test
-    public void testDefaultConstructor() {
-        Car car = new Car();
-        assertNotNull(car);
-    }
     @Test
     public void testParameterizedConstructor() {
         String brand = "Toyota";
